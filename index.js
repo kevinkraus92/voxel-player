@@ -1,6 +1,7 @@
-var skin = require('minecraft-skin');
+
 
 module.exports = function (game) {
+    var skin = game.skin;
     var mountPoint;
     var possessed;
     
